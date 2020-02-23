@@ -1,7 +1,9 @@
 package day63_Saturday;
 
 import java.util.HashSet;
+import java.util.LinkedHashSet;
 import java.util.Set;
+import java.util.TreeSet;
 
 public class RemoveDuplicate_KeepOneChar {
 
@@ -22,7 +24,15 @@ public class RemoveDuplicate_KeepOneChar {
         // iterate over each character in above String
         // then add it to the object (HashSet) so it can remove the duplicate for us
 
+        //******IMPORTANT : TRY FOLLOWING SET TYPE ONE BY ONE:
+            //1. HasSet---> Not in order when you add new Char
         Set<Character> charSet = new HashSet<>();
+
+        //2. LinkedHashSet---> Care about insertion order
+        //Set<Character> charSet = new LinkedHashSet<>(); // this will gives us insertion order(whichever you added first you get it first)
+
+        //3. TreeSet ---->  Care about sorted order(Speacial Char, Capital Char, LowerCase Char)
+        //Set<Character> charSet = new TreeSet<>();
 
         for (int x = 0; x < str.length(); x++) {
             charSet.add(str.charAt(x));

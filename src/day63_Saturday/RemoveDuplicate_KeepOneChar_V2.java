@@ -14,7 +14,7 @@ public class RemoveDuplicate_KeepOneChar_V2 {
                 "Click to join";
 
 
-        //Set<Character> chars = new HashSet<>( Arrays.asList('A','A','A','A','A')   );
+        //Set<Character> chars = new HashSet<>( Arrays.asList('A','A','A','A','A')   );---> THIS WILL give you just one [A],don't accept duplicate Char
 
         // Instead of going through each and every character
         // I want to turn this String into a String array of each character

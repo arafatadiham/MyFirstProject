@@ -3,7 +3,7 @@ package day63_Saturday;
 import java.util.HashMap;
 import java.util.Map;
 
-public class FrequencyOfCharacters {
+public class IMPORTANT_FrequencyOfCharacters {
 
     public static void main(String[] args) {
 
@@ -33,8 +33,8 @@ public class FrequencyOfCharacters {
                 // if we come to this point it means it has already showed up
                 // so we update the count with 1 extra than existing count
                 System.out.println("Incrementing the count of " + currentChar + " by one and replacing old count");
+                //replacing the count value by incrementing existing value
                 charFreq.replace(currentChar, charFreq.get(currentChar) + 1);
-
             }
         }
         System.out.println("charFreq = " + charFreq);

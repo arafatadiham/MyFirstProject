@@ -6,19 +6,16 @@ public class P096_RepeatSeparator {
 
     public static void main(String[] args) {
 
-        Scanner scan = new Scanner(System.in);
-        String word = scan.next();
-        String separator = scan.next();
-        int count = scan.nextInt();  //-----> count of word that appear
+        String word = "Cat";
+        String sep = "X";
+        int count = 1;
 
-        String completedWord = "";
+        String result = word;
+        for (int i = 1; i < count; i++) {
 
-        for (int x= 0; x<count; x++) {
-            completedWord = word + separator;
-            System.out.print(completedWord);
+                result = result + sep + word;
 
-            if (count == 0)
-                System.out.println("wrong!");
         }
+        System.out.println(result);
     }
 }

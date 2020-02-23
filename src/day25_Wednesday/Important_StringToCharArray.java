@@ -23,9 +23,7 @@ public class Important_StringToCharArray {
         for (char eachChar : allCharsInName) {
             System.out.println("eachChar = " + eachChar);
         }
-
-// now count how many "a" we have
-
+        // now count how many "a" we have
         int count = 0;
         for (char eachChar : allCharsInName) {
             if (eachChar == 'd') {

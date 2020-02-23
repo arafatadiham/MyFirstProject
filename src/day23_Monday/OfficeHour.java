@@ -53,8 +53,7 @@ public class OfficeHour {
         System.out.println("Second max is: " + secondMax);
         System.out.println("Min is: " + min);
         System.out.println("Max is : " + max);
-        System.out.println("Second max is : " + secondMax);
-        System.out.println("Min is : " + min);
+
     }
 
 }

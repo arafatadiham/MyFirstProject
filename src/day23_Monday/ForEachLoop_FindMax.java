@@ -14,7 +14,7 @@ public class ForEachLoop_FindMax {
          *
          *
          * OPTIONALLY : use different for each loop to
-         * print only the salary more than 100000
+         * print only the salary more than 100,000
          *
          * Optionally :
          * use for each loop to find the max
