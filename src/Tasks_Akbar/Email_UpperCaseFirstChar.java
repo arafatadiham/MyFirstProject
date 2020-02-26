@@ -9,5 +9,7 @@ public class Email_UpperCaseFirstChar {
         String s = email.substring(5).replace("t", "T");
         System.out.println(s1 + s);
 
+        System.out.println(" this is just testing for GitHub");
+
     }
 }
