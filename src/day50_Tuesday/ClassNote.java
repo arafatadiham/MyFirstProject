@@ -8,15 +8,19 @@ what we can have inside an interface :
 	 abstract method ( NO-BODY!!!)
 	 default method (MUST HAVE BODY : usually have default implementation)
 	 static method (MUST HAVE BODY : NOT INHERITED, use in static way)
+
 public interface Edible{
 	public abstract void eat();
 }
+
 Edible e1 = new Edible() ; NO OBJECT !!!!!!!
+
 ALL OF THEM ARE optional :
  is there any interface that has nothing inside ? YES
  its known as marker interface
  Examples of marker interfaces are the Serializable , Cloneable and Remote interfaces.
  These are used to indicate some information to compilers or JVMs
+
 Where else have we seen default  :
  switch statement
  		String season = "winter";
@@ -27,6 +31,7 @@ Where else have we seen default  :
  			default:
  				// if nothing match come here !!!
  		}
+
  access modifer for
  		fields , methods , constructor
  		if there is no visible access modifer like public protected private
@@ -37,16 +42,19 @@ Where else have we seen default  :
  			a method that have default keyword in method delaration
  			and has default implementation (body)
  			THIS IS THE ONLY PLACE DEFAULT METHOD CAN EXISTS !!!
+
   constructor
   		default cosntructor that given by compiler
   		when a class does not have any constructor
   		WE DO NOT SEE THE WORD DEFAULT HERE , Its just a way to call it
+
   default values for
   		array items get default values
   		int[] nums = new int[5] ;   [0,0,0,0,0]
   		double[] nums = new double[3] ;   [0.0, 0.0 , 0.0]
   		boolean[] bools = new boolean[2] ;  [false , false]
   		........
+
   		what about for reference type
   		String[]  names = new String[2]  [null, null]
   		fields : instance or static field also gets default values

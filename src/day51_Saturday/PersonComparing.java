@@ -5,6 +5,7 @@ import java.util.Collections;
 import java.util.List;
 public class PersonComparing {
     public static void main(String[] args) {
+
         Person p1 = new Person("Arafat", 34);
         Person p2 = new Person("Zhibekchach", 17);
         Person p3 = new Person("Asena", 18);

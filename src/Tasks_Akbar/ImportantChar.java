@@ -16,6 +16,21 @@ public class ImportantChar {
         // Task2:
         int a = 130;
         byte b = (byte) (a * 2);
-        System.out.print(b);
+        System.out.println(b);
+
+        //Task 3:
+
+        double d = 129.879;
+        float f = (byte) d;
+        System.out.println(f);
+
+        //TASK4:
+        System.out.println(12+'3');
+
+        //TASK 5:
+        double x = 10/3;
+        double y = 10.0/3;
+        System.out.println(x);
+        System.out.println(y);
     }
 }

@@ -3,13 +3,17 @@ package day51_Saturday;
 // Person IS-A Comparable
 // yes because it implements Comparable interface
 // it's a inheritance | IS-A | Super-Sub relationship
+
 public class Person implements Comparable<Person> {
+
     String name;
     int age;
+
     public Person(String name, int age) {
         this.name = name;
         this.age = age;
     }
+
     // now this become a natural order for comparing Person Object
     @Override
     public int compareTo(Person otherPerson) {
